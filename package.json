@@ -3,14 +3,14 @@
   "author": "Gustavo Barragan <dev@droni.co>",
   "version": "0.0.0-development",
   "main": "dist/index.js",
-  "types": "index.d.ts",
+  "types": "src/types/index.d.ts",
   "bin": "dist/bin.js",
   "scripts": {
     "semantic-release": "semantic-release",
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "files": ["dist", "README.md", "index.d.ts"],
+  "files": ["dist", "src", "README.md"],
   "publishConfig": {
     "access": "public"
   },
