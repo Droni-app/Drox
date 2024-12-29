@@ -1,1 +1,5 @@
-console.log('hola mundo');
+import { IMyInterface } from "../types/index";
+
+export const myObject: IMyInterface = {
+  myProperty: "Hello, world!"
+};
