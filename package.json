@@ -3,9 +3,6 @@
   "author": "Gustavo Barragan <dev@droni.co>",
   "version": "0.0.0-development",
   "main": "dist/index.js",
-  "types": "src/types/index.d.ts",
-  "bin": "dist/bin.js",
-  "module": "dist/drox.js",
   "scripts": {
     "semantic-release": "semantic-release",
     "build": "tsc",
@@ -17,14 +14,7 @@
   },
   "type": "module",
   "homepage": "https://droni.co",
-  "keywords": [
-    "mvc",
-    "api",
-    "express",
-    "nodejs",
-    "REST",
-    "ORM"
-  ],
+  "keywords": ["mvc", "api", "express", "nodejs", "typescript"],
   "license": "MIT",
   "description": "Basic prebuild framework to create APIs",
   "engines": {
