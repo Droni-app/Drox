@@ -1,12 +1,48 @@
 {
-  "name": "drox",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "@dronico/drox",
+  "author": "Gustavo Barragan <dev@droni.co>",
+  "version": "0.0.0-development",
+  "main": "dist/index.js",
+  "types": "dist/types/index.d.ts",
+  "bin": "dist/bin.js",
   "scripts": {
+    "semantic-release": "semantic-release",
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "files": [
+    "dist",
+    "types",
+    "start",
+    "README.md",
+    "index.d.ts"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "type": "module",
+  "homepage": "https://droni.co",
+  "keywords": [
+    "mvc",
+    "api",
+    "express",
+    "nodejs",
+    "REST",
+    "ORM"
+  ],
+  "license": "MIT",
+  "description": "Basic prebuild framework to create APIs",
+  "engines": {
+    "node": ">= 22.0.0",
+    "npm": ">= 10.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "semantic-release": "^24.2.0",
+    "typescript": "^5.7.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/droni-co/drx.git"
+  }
 }
