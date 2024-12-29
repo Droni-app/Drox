@@ -5,6 +5,7 @@
   "main": "dist/index.js",
   "types": "src/types/index.d.ts",
   "bin": "dist/bin.js",
+  "module": "dist/drox.js",
   "scripts": {
     "semantic-release": "semantic-release",
     "build": "tsc",
