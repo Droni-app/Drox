@@ -3,7 +3,7 @@
   "author": "Gustavo Barragan <dev@droni.co>",
   "version": "0.0.0-development",
   "main": "dist/index.js",
-  "types": "dist/types/index.d.ts",
+  "types": "index.d.ts",
   "bin": "dist/bin.js",
   "scripts": {
     "semantic-release": "semantic-release",
