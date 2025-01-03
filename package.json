@@ -12,7 +12,6 @@
   "publishConfig": {
     "access": "public"
   },
-  "type": "module",
   "homepage": "https://droni.co",
   "keywords": ["mvc", "api", "express", "nodejs", "typescript"],
   "license": "MIT",
