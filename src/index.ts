@@ -1,4 +1,4 @@
-import { IMyInterface } from "./types/index.js";
+import { IMyInterface } from "../types/index.js";
 
 export const myObject: IMyInterface = {
   myProperty: "Hello, world!"
