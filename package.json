@@ -8,12 +8,23 @@
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "files": ["dist", "src", "types", "README.md"],
+  "files": [
+    "dist",
+    "src",
+    "types",
+    "README.md"
+  ],
   "publishConfig": {
     "access": "public"
   },
   "homepage": "https://droni.co",
-  "keywords": ["mvc", "api", "express", "nodejs", "typescript"],
+  "keywords": [
+    "mvc",
+    "api",
+    "express",
+    "nodejs",
+    "typescript"
+  ],
   "license": "MIT",
   "description": "Basic prebuild framework to create APIs",
   "engines": {
@@ -21,12 +32,16 @@
     "npm": ">= 10.9.0"
   },
   "devDependencies": {
-    "@types/node": "^22.10.2",
-    "semantic-release": "^24.2.0",
-    "typescript": "^5.7.2"
+    "@types/express": "^5.0.0",
+    "@types/node": "22.10.2",
+    "semantic-release": "24.2.0",
+    "typescript": "5.7.2"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Droni-app/Drox.git"
+  },
+  "dependencies": {
+    "express": "4.21.2"
   }
 }

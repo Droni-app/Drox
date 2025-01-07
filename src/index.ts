@@ -1,6 +1,3 @@
-import { IMyInterface } from "../types/index.js";
+import Server from "./server";
 
-export const myObject: IMyInterface = {
-  myProperty: "Hello, world!"
-};
-console.log(myObject.myProperty);
+export { Server };
